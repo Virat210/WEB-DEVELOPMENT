@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Border Table</title>
+  <style>
+    table {
+      border-collapse: collapse; /* ye line double border hata deti hai */
+      width: 300px;
+    }
+    th, td {
+
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Subject</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Math</td>
+        <td>9:00 AM</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Science</td>
+        <td>10:00 AM</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">End of Table</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
