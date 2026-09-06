@@ -6,6 +6,12 @@ h2{
     font-size: 50px;
     color: blue;        
 }
+h2:hover{
+    color:magenta;
+}
+h2:active{
+    color:goldenrod;
+}
 h3{
     font-size: 50px;
     color: green;
