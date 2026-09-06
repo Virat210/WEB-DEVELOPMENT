@@ -1,18 +1,24 @@
 h1{
     font-size: 50px;
+    color: red;
 }
 h2{
     font-size: 50px;
+    color: blue;        
 }
 h3{
     font-size: 50px;
+    color: green;
 }
 h4{
     font-size: 25px;
+    color: purple;
 }
 h5{
     font-size: 25px;
+    color: orange;
 }
 h6{
     font-size: 25px;
+    color: brown;
 }
